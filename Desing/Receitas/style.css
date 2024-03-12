@@ -1,0 +1,21 @@
+h2, h3{
+    color:bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 20px ;
+    border: 10px solid yellow;
+    background-color: black;
+    color:aliceblue;
+    padding-bottom: 15px;
+}
+#borda{background-color: gray;}
+
+ul li{
+    list-style: none;
+    display: inline;
+}
