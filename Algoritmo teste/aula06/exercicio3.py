@@ -27,4 +27,4 @@ qtd_latas = litros_necessarios / tamanho_lata
 if(qtd_latas - int(qtd_latas)) > 0:
     qtd_latas = int(qtd_latas) + 1
 
-print(f"Qtd latas necessárias: {qtd_latas}")
+print(f"Qtd latas necessárias: ")
