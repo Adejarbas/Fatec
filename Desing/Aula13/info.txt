@@ -1,0 +1,2 @@
+h1 p1 e label se usa text contet ou inner html
+input se usa valul  input_valul
