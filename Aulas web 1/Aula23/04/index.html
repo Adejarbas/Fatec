@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanche</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    
+<div class="container-fluid">
+    <div class="alert alert-primary" role="alert">
+         <b><p id="paragrafo">Hamburgueria Xgostoso</p></b>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+                <label class="form-label" for="telefone">telefone</label>
+                <input class="form-control" type="text" name="telefone" id="telefone">
+        </div>
+
+        <div class="col-6">
+                <label class="form-label" for="cliente">Nome Cliente</label>
+                <input class="form-control" type="text" name="cliente" id="cliente">
+        </div>
+
+    </div>
+
+    <div class="row">
+            <div class="col-sm-6">
+                <label class="form-label" for="estado">Combo</label>
+                <select class="form form-select" name="estado" id="estado">
+                    <option selected>Escolha</option>
+                    <option>HotDog Simples --------- R$14,00 </option>
+                    <option>HotDog Especial ---------  R$16,00 </option>
+                    <option>XSalada ------------------ R$18,00</option>
+                    <option>XSalada com 2 hamburguer ---- R$22,00</option>
+                </select>
+            
+
+        </div>
+        <div class="col-sm-3">
+            <label for="adicionais">adicionais</label>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="10" id="Bacon">
+                    <label class="form-check-label" for="Bacon">
+                    Bacon
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="5" id="Cheddar" checked>
+                    <label class="form-check-label" for="Cheddar">
+                    Cheddar
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="20" id="Picles" checked>
+                    <label class="form-check-label" for="Picles">
+                    Picles
+                    </label>
+                </div>    
+        </div>
+        <div class="col-3">   
+            <label for="entrega">Entrega</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Entrega" id="Para viagem">
+                    <label class="form-check-label" for="Para viagem">
+                      Para viagem
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Entrega" id="Balcao" checked>
+                    <label class="form-check-label" for="Balcao">
+                      Balcao
+                    </label>
+                </div>    
+    </div>            
+        </div>
+    
+    <div class="row">   
+        <div class="col-3">
+            <button type="button" class="btn btn-primary">Calcular</button>
+        </div>    
+        <div class="col-3">    
+            <button type="button" class="btn btn-primary">Novo Pedido</button>
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-primary">Recibo</button>
+        </div>    
+    </div> 
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
