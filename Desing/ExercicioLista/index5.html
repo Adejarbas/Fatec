@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listaa JavaScript</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333;
+        }
+        section{
+            background-color: #f5f5f5;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 60px ;
+        }
+        ul{
+            display: inline-block;
+            list-style-type: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+        <h1>Daniel Rodrigues Lopes Adejarbas</h1>
+    </section>
+    <section>
+        <ul>
+            <a href="index1.html"> <li>Exercício 1</li> </a>
+            <a href="index2.html"> <li>Exercício 2</li> </a>
+            <a href="index3.html"> <li>Exercício 3</li> </a>
+            <a href="index4.html"> <li>Exercício 4</li> </a>
+            <a href="index5.html"> <li>Exercício 5</li> </a>
+            <a href="index6.html"> <li>Exercício 6</li> </a>
+            <a href="index7.html"> <li>Exercício 7</li> </a>
+            <a href="index8.html"> <li>Exercício 8</li> </a>
+        </ul>
+    </section>
+    
+    <section>
+    
+        <h2>Receba duas notas e calcule a média ponderada (notas com peso diferente). A primeira nota vale 30% e a segunda 70%. Mostre por meio de um elemento label Em html e javascript</h2>
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" step="0.01"><br><br>
+    
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" step="0.01"><br><br>
+    
+        <button onclick="calcularMedia()">Calcular Média</button><br><br>
+    
+        <p>A média ponderada é: <span id="resultado"></span></p>
+    
+        <script src="script.js"></script>
+    
+    </section>
+</body>
+</html>
