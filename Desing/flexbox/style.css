@@ -1,0 +1,9 @@
+.box{
+border-radius: 5px;
+border: 1px solid purple;
+display:flex ;
+flex-direction: row;
+flex-wrap: wrap;           /* ou nowwap */
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyleJ5KTQ92Hs92JP8P5f6CFCAbhYC0n_a-3QoyzQ6w&s") ;
+color: black;
+}

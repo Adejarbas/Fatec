@@ -1,0 +1,81 @@
+:root{
+  --cor-rodape: #01B658;
+  --cor-secundaria: #016C62;
+  --cor-fundo-cadastro: #F5F5F5;
+  --cor-fundo-letras: #FFFF;
+  --tamanho-fonte: 48px; 
+  
+  
+}
+
+body {
+    background-color: #FFFF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    margin: 10px 20px ;
+    
+  }
+
+
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    color: var(--cor-secundaria);
+  }
+
+  h2{
+    font-size: 36px;
+    text-align: center;
+    color: black
+  }
+
+  div{
+    
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.redes-sociais a {
+    margin: 0 5px;
+}
+
+
+.box{
+  border-radius: 15px;
+  border: 2px solid #016C62;
+  display:flex ;
+  flex-direction: column;
+  flex-wrap: wrap;           /* ou nowwap */
+  background-image: url() ;
+  color: black;
+  }

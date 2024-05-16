@@ -1,0 +1,17 @@
+.conteiner{
+    border: 1px solid #001100;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subconteiner{
+    width: 100px;
+    border: 1px solid #65c465;
+    margin: 20px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: row;
+}
