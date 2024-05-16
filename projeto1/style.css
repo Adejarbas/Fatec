@@ -79,3 +79,7 @@ footer {
   background-image: url() ;
   color: black;
   }
+
+  .minha-div {
+    background-color: #ff0000; /* Cor de fundo vermelha */
+}
